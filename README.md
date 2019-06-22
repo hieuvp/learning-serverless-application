@@ -14,6 +14,26 @@
 
 ## Getting to Know the Serverless Application Model
 
+- CloudFormation
+- CloudFormation Template
+
+Serverless Application Model also known as "SAM"
+
+New Resource Types with SAM
+
+AWS Lambda Functions
+AWS::Serverless::Function
+
+Amazon API Gateway APIs
+AWS::Serverless::Api
+
+Amazon DynamoDB Tables
+AWS::Serverless::SimpleTable
+
+SAM Templates: CloudFormation Templates with SAM resources
+SAM Templates: Define and deploy SAM resources and non-SAM resources
+
+
 
 ## References
 - [Deploying Serverless Applications in AWS Using the Serverless Application Model](https://app.pluralsight.com/library/courses/aws-deploying-serverless-applications-application-model/table-of-contents)
