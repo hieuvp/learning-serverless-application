@@ -6,9 +6,13 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 
+- [Getting to Know the Serverless Application Model](#getting-to-know-the-serverless-application-model)
 - [References](#references)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+
+## Getting to Know the Serverless Application Model
 
 
 ## References
