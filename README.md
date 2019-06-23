@@ -91,6 +91,32 @@ $ sam local invoke WinterfellLambdaFunction --event events.json
 $ sam local generate-event cloudwatch scheduled-event | sam local invoke WinterfellLambdaFunction
 ```
 
+```bash
+$ aws s3 rb s3://winterfell-serverless --force
+$ aws s3 mb s3://winterfell-serverless
+$ aws s3 ls
+```
+
+```bash
+$ sam package \
+    --template-file sam-template.yaml \
+    --s3-bucket winterfell-serverless \
+    --output-template-file sam-output-template.yaml
+```
+
+```bash
+$ sam deploy \
+    --template-file sam-output-template.yaml \
+    --stack-name winterfell-serverless \
+    --capabilities CAPABILITY_IAM \
+    --region us-east-1
+```
+
+```bash
+$ sam logs -n WinterfellLambdaFunction --stack-name winterfell-serverless --tail --region us-east-1
+```
+
+
 ## Defining and Deploying a Library Application
 
 > Checkout [library-app](library-app).
