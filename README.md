@@ -12,6 +12,7 @@
     - [Serverless Resources](#serverless-resources)
     - [SAM Templates](#sam-templates)
     - [Serverless Deployments](#serverless-deployments)
+    - [SAM CLI](#sam-cli)
 - [Defining and Deploying a Basic Application](#defining-and-deploying-a-basic-application)
   - [Schedule Event](#schedule-event)
 - [Defining and Deploying a Library Application](#defining-and-deploying-a-library-application)
@@ -64,6 +65,8 @@
   <br />
   <em>After the Serverless Application Model</em>
 </div>
+
+#### SAM CLI
 
 
 ## Defining and Deploying a Basic Application
