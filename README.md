@@ -10,7 +10,8 @@
   - [AWS Cloud​Formation](#aws-cloud%E2%80%8Bformation)
   - [Serverless Application Model (a.k.a. `SAM`)](#serverless-application-model-aka-sam)
     - [Serverless Resources](#serverless-resources)
-    - [SAM Template Concepts](#sam-template-concepts)
+    - [SAM Templates](#sam-templates)
+    - [Serverless Deployments](#serverless-deployments)
 - [References](#references)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -38,6 +39,8 @@
 **`SAM Templates`** = **`CloudFormation Templates`** + **`SAM Resources`**
 
 - SAM Templates: Define and deploy SAM resources and non-SAM resources.
+
+#### Serverless Deployments
 
 
 ## References
