@@ -49,6 +49,7 @@
 
 <div align="center">
   <img src="assets/before-sam.png" width="800">
+  <br />
   <em>Before the Serverless Application Model</em>
 </div>
 
@@ -57,6 +58,7 @@
 
 <div align="center">
   <img src="assets/after-sam.png" width="800">
+  <br />
   <em>After the Serverless Application Model</em>
 </div>
 
@@ -78,7 +80,7 @@ basic-app
 > Checkout [library-app](library-app) source.
 
 ```bash
-tree library-app
+$ tree library-app
 library-app
 ├── api
 │   └── books.js
