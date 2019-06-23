@@ -45,7 +45,7 @@
 
 **`SAM Templates`** = **`CloudFormation Templates`** + **`SAM Resources`**
 
-<img src="assets/sam-template.png" width="650">
+<img src="assets/sam-template.png" width="600">
 
 #### Serverless Deployments
 
@@ -60,9 +60,11 @@
 
 ## Defining and Deploying a Basic Application
 
+[basic-app](basic-app/)
 
 ## Defining and Deploying a Library Application
 
+[library-app](library-app/)
 
 ## Alternatives
 
