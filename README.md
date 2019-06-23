@@ -33,9 +33,10 @@
 | -------------------- | ----------------------- | ---------------------- |
 | AWS::Serverless::Function | AWS::Serverless::Api | AWS::Serverless::SimpleTable |
 
-#### SAM Template Concepts
+#### SAM Templates
 
-- SAM Templates: CloudFormation templates with SAM resources.
+**`SAM Templates`** = **`CloudFormation Templates`** + **`SAM Resources`**
+
 - SAM Templates: Define and deploy SAM resources and non-SAM resources.
 
 
