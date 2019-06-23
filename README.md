@@ -7,6 +7,9 @@
 
 
 - [Getting to Know the Serverless Application Model](#getting-to-know-the-serverless-application-model)
+  - [AWS Cloud​Formation](#aws-cloud%E2%80%8Bformation)
+  - [Serverless Application Model (a.k.a. `SAM`)](#serverless-application-model-aka-sam)
+    - [Serverless Resources](#serverless-resources)
 - [References](#references)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -16,24 +19,20 @@
 
 ### AWS Cloud​Formation
 
+> Infrastructure as Code
+
 - Provide a common language for us to describe and provision all the infrastructure resources in our cloud environment.
 - Allow us to use a simple text file to model and provision, in an automated and secure manner, all the resources needed for our applications across all regions and accounts. This file serves as the single source of truth for our cloud environment.
 
-- CloudFormation
-- CloudFormation Template
+### Serverless Application Model (a.k.a. `SAM`)
 
-Serverless Application Model also known as "SAM"
+#### Serverless Resources
 
-New Resource Types with SAM
+| AWS Lambda Functions | Amazon API Gateway APIs | Amazon DynamoDB Tables |
+| -------------------- | ----------------------- | ---------------------- |
+| AWS::Serverless::Function | AWS::Serverless::Api | AWS::Serverless::SimpleTable |
 
-AWS Lambda Functions
-AWS::Serverless::Function
 
-Amazon API Gateway APIs
-AWS::Serverless::Api
-
-Amazon DynamoDB Tables
-AWS::Serverless::SimpleTable
 
 SAM Templates: CloudFormation Templates with SAM resources
 SAM Templates: Define and deploy SAM resources and non-SAM resources
