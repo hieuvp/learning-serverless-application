@@ -65,10 +65,27 @@
 
 > Checkout [basic-app](basic-app) source.
 
+```bash
+$ tree basic-app
+basic-app
+├── index.js
+└── template.yaml
+```
+
 
 ## Defining and Deploying a Library Application
 
 > Checkout [library-app](library-app) source.
+
+```bash
+tree library-app
+library-app
+├── api
+│   └── books.js
+├── package-lock.json
+├── package.json
+└── template.yaml
+```
 
 
 ## Alternatives
