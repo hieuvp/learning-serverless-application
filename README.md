@@ -95,9 +95,7 @@ $ sam local generate-event cloudwatch scheduled-event | sam local invoke Winterf
 ```
 
 ```bash
-$ aws s3 rb s3://winterfell-serverless --force
 $ aws s3 mb s3://winterfell-serverless
-$ aws s3 ls
 ```
 
 ```bash
@@ -112,19 +110,21 @@ $ aws cloudformation deploy \
     --template-file sam-output-template.yaml \
     --stack-name winterfell-serverless \
     --capabilities CAPABILITY_IAM \
-    --region us-east-1
+    --region ap-southeast-1
 ```
 
 ```bash
-$ aws cloudformation describe-stack-resources --stack-name winterfell-serverless --region us-east-1
-$ aws cloudformation describe-stack-resource --stack-name winterfell-serverless --logical-resource-id WinterfellLambdaFunction --region us-east-1
-$ aws lambda get-function --function-name winterfell-serverless-WinterfellLambdaFunction-PPX5AYSG740Y --region us-east-1
-$ sam logs --name WinterfellLambdaFunction --stack-name winterfell-serverless --tail --region us-east-1
+$ aws cloudformation describe-stack-resources --stack-name winterfell-serverless --region ap-southeast-1
+$ aws cloudformation describe-stack-resource --stack-name winterfell-serverless --logical-resource-id WinterfellLambdaFunction --region ap-southeast-1
+$ aws lambda get-function --function-name winterfell-serverless-WinterfellLambdaFunction-PPX5AYSG740Y --region ap-southeast-1
+$ sam logs --name WinterfellLambdaFunction --stack-name winterfell-serverless --tail --region ap-southeast-1
 ```
 
 ```bash
-$ aws cloudformation delete-stack --stack-name winterfell-serverless --region us-east-1
-$ aws cloudformation list-stacks --region us-east-1
+$ aws cloudformation delete-stack --stack-name winterfell-serverless --region ap-southeast-1
+$ aws cloudformation list-stacks --region ap-southeast-1
+$ aws s3 rb s3://winterfell-serverless --force
+$ aws s3 ls
 ```
 
 ## Defining and Deploying a Library Application
