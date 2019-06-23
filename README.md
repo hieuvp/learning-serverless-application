@@ -113,9 +113,13 @@ $ sam deploy \
 ```
 
 ```bash
-$ sam logs -n WinterfellLambdaFunction --stack-name winterfell-serverless --tail --region us-east-1
+$ sam logs --name WinterfellLambdaFunction --stack-name winterfell-serverless --tail --region us-east-1
 ```
 
+```bash
+$ aws cloudformation delete-stack --stack-name winterfell-serverless --region us-east-1
+$ aws cloudformation list-stacks --region us-east-1
+```
 
 ## Defining and Deploying a Library Application
 
