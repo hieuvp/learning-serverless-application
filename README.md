@@ -35,15 +35,17 @@
 
 | AWS Lambda Functions | Amazon API Gateway APIs | Amazon DynamoDB Tables |
 | -------------------- | ----------------------- | ---------------------- |
-| AWS::Serverless::Function | AWS::Serverless::Api | AWS::Serverless::SimpleTable |
+| `AWS::Serverless::Function` | `AWS::Serverless::Api` | `AWS::Serverless::SimpleTable` |
 
 #### SAM Templates
 
 > Define and deploy SAM resources and non-SAM resources.
 
-**`SAM Templates`** = **`CloudFormation Templates`** + **`SAM Resources`**
-
-<img src="assets/sam-template.png" width="600">
+<div align="center">
+  <img src="assets/sam-template.png" width="600">
+  <br />
+  <b>SAM Templates</b> = <b>CloudFormation Templates</b> + <b>SAM Resources</b>
+</div>
 
 #### Serverless Deployments
 
@@ -67,7 +69,7 @@
 
 > Checkout [basic-app](basic-app) source.
 
-```bash
+```shell
 $ tree basic-app
 basic-app
 ├── index.js
@@ -79,7 +81,7 @@ basic-app
 
 > Checkout [library-app](library-app) source.
 
-```bash
+```shell
 $ tree library-app
 library-app
 ├── api
