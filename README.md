@@ -101,14 +101,14 @@ $ aws s3 ls
 ```
 
 ```bash
-$ sam package \
+$ aws cloudformation package \
     --template-file sam-template.yaml \
     --s3-bucket winterfell-serverless \
     --output-template-file sam-output-template.yaml
 ```
 
 ```bash
-$ sam deploy \
+$ aws cloudformation deploy \
     --template-file sam-output-template.yaml \
     --stack-name winterfell-serverless \
     --capabilities CAPABILITY_IAM \
@@ -116,6 +116,9 @@ $ sam deploy \
 ```
 
 ```bash
+$ aws cloudformation describe-stack-resources --stack-name winterfell-serverless --region us-east-1
+$ aws cloudformation describe-stack-resource --stack-name winterfell-serverless --logical-resource-id WinterfellLambdaFunction --region us-east-1
+$ aws lambda get-function --function-name winterfell-serverless-WinterfellLambdaFunction-PPX5AYSG740Y --region us-east-1
 $ sam logs --name WinterfellLambdaFunction --stack-name winterfell-serverless --tail --region us-east-1
 ```
 
