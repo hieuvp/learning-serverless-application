@@ -77,6 +77,9 @@ basic-app
 └── template.yaml
 ```
 
+- [index.js](basic-app/index.js)
+- [template.yaml](basic-app/template.yaml)
+
 ### Schedule Event
 
 ```bash
