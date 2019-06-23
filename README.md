@@ -14,6 +14,11 @@
 
 ## Getting to Know the Serverless Application Model
 
+### AWS Cloud​Formation
+
+- Provide a common language for us to describe and provision all the infrastructure resources in our cloud environment.
+- Allow us to use a simple text file to model and provision, in an automated and secure manner, all the resources needed for our applications across all regions and accounts. This file serves as the single source of truth for our cloud environment.
+
 - CloudFormation
 - CloudFormation Template
 
