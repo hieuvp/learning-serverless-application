@@ -20,5 +20,8 @@ pids/
 *.seed
 *.pid.lock
 
+# Event Data
+events.json
+
 # Test Coverage
 coverage/
