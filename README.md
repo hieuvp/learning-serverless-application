@@ -47,16 +47,18 @@
 
 #### Serverless Deployments
 
-<img src="assets/before-sam.png" width="800">
-<br />
-<em>Before the Serverless Application Model</em>
+<div align="center">
+  <img src="assets/before-sam.png" width="800">
+  <em>Before the Serverless Application Model</em>
+</div>
 
 <br />
 <br />
 
-<img src="assets/after-sam.png" width="800">
-<br />
-<em>After the Serverless Application Model</em>
+<div align="center">
+  <img src="assets/after-sam.png" width="800">
+  <em>After the Serverless Application Model</em>
+</div>
 
 
 ## Defining and Deploying a Basic Application
