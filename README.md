@@ -7,7 +7,7 @@
 
 
 - [Getting to Know](#getting-to-know)
-  - [AWS Cloud​Formation](#aws-cloud%E2%80%8Bformation)
+  - [AWS CloudFormation](#aws-cloudformation)
   - [Serverless Application Model (a.k.a. `SAM`)](#serverless-application-model-aka-sam)
     - [Serverless Resources](#serverless-resources)
     - [SAM Templates](#sam-templates)
@@ -22,7 +22,7 @@
 
 ## Getting to Know
 
-### AWS Cloud​Formation
+### AWS CloudFormation
 
 > Infrastructure as Code
 
