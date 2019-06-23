@@ -36,9 +36,9 @@
 
 #### SAM Templates
 
-**`SAM Templates`** = **`CloudFormation Templates`** + **`SAM Resources`**
+> Define and deploy SAM resources and non-SAM resources
 
-- SAM Templates: Define and deploy SAM resources and non-SAM resources.
+**`SAM Templates`** = **`CloudFormation Templates`** + **`SAM Resources`**
 
 #### Serverless Deployments
 
