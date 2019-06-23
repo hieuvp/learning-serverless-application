@@ -21,7 +21,7 @@ pids/
 *.pid.lock
 
 # Event Data
-events.json
+event.json
 
 # Test Coverage
 coverage/
