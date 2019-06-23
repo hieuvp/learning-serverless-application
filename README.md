@@ -6,18 +6,21 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 
-- [Getting to Know the Serverless Application Model](#getting-to-know-the-serverless-application-model)
+- [Getting to Know](#getting-to-know)
   - [AWS Cloud​Formation](#aws-cloud%E2%80%8Bformation)
   - [Serverless Application Model (a.k.a. `SAM`)](#serverless-application-model-aka-sam)
     - [Serverless Resources](#serverless-resources)
     - [SAM Templates](#sam-templates)
     - [Serverless Deployments](#serverless-deployments)
+- [Defining and Deploying a Basic Application](#defining-and-deploying-a-basic-application)
+- [Defining and Deploying a Library Application](#defining-and-deploying-a-library-application)
+- [Alternatives](#alternatives)
 - [References](#references)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 
-## Getting to Know the Serverless Application Model
+## Getting to Know
 
 ### AWS Cloud​Formation
 
@@ -41,6 +44,15 @@
 **`SAM Templates`** = **`CloudFormation Templates`** + **`SAM Resources`**
 
 #### Serverless Deployments
+
+
+## Defining and Deploying a Basic Application
+
+
+## Defining and Deploying a Library Application
+
+
+## Alternatives
 
 
 ## References
