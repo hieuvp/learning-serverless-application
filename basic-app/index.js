@@ -1,3 +1,3 @@
-exports.handler = () => {
-  console.log('Hello Winterfell! Mr. Harrison Showdown');
+exports.handler = event => {
+  console.log(`Received ${event['detail-type']}!`);
 };
