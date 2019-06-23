@@ -45,11 +45,11 @@
 
 #### Serverless Deployments
 
-<img src="assets/before-sam.png" width="500">
+<img src="assets/before-sam.png" width="900">
 
-<img src="assets/after-sam.png" width="500">
+<img src="assets/after-sam.png" width="900">
 
-<img src="assets/sam-template.png" width="500">
+<img src="assets/sam-template.png" width="700">
 
 ## Defining and Deploying a Basic Application
 
