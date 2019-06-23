@@ -42,7 +42,7 @@
 > Define and deploy SAM resources and non-SAM resources.
 
 <div align="center">
-  <img src="assets/sam-template.png" width="600">
+  <img src="assets/sam-template.png" width="550">
   <br />
   <b>SAM Templates</b> = <b>CloudFormation Templates</b> + <b>SAM Resources</b>
 </div>
@@ -50,7 +50,7 @@
 #### Serverless Deployments
 
 <div align="center">
-  <img src="assets/before-sam.png" width="800">
+  <img src="assets/before-sam.png" width="750">
   <br />
   <em>Before the Serverless Application Model</em>
 </div>
@@ -59,7 +59,7 @@
 <br />
 
 <div align="center">
-  <img src="assets/after-sam.png" width="800">
+  <img src="assets/after-sam.png" width="750">
   <br />
   <em>After the Serverless Application Model</em>
 </div>
@@ -67,7 +67,7 @@
 
 ## Defining and Deploying a Basic Application
 
-> Checkout [basic-app](basic-app) source.
+> Checkout [basic-app](basic-app).
 
 ```shell
 $ tree basic-app
@@ -79,7 +79,7 @@ basic-app
 
 ## Defining and Deploying a Library Application
 
-> Checkout [library-app](library-app) source.
+> Checkout [library-app](library-app).
 
 ```shell
 $ tree library-app
