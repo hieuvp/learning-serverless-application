@@ -12,6 +12,8 @@
     - [Serverless Resources](#serverless-resources)
     - [SAM Templates](#sam-templates)
     - [Serverless Deployments](#serverless-deployments)
+      - [Before the Serverless Application Model](#before-the-serverless-application-model)
+      - [After the Serverless Application Model](#after-the-serverless-application-model)
 - [Defining and Deploying a Basic Application](#defining-and-deploying-a-basic-application)
 - [Defining and Deploying a Library Application](#defining-and-deploying-a-library-application)
 - [Alternatives](#alternatives)
@@ -43,13 +45,18 @@
 
 **`SAM Templates`** = **`CloudFormation Templates`** + **`SAM Resources`**
 
+<img src="assets/sam-template.png" width="650">
+
 #### Serverless Deployments
+
+##### Before the Serverless Application Model
 
 <img src="assets/before-sam.png" width="800">
 
+##### After the Serverless Application Model
+
 <img src="assets/after-sam.png" width="800">
 
-<img src="assets/sam-template.png" width="650">
 
 ## Defining and Deploying a Basic Application
 

@@ -7,7 +7,7 @@ Resources:
   Books:
     Type: AWS::Serverless::Function
     Properties:
-      Runtime: nodejs8.10
+      Runtime: nodejs10.x
       CodeUri: ./api
       Handler: books.handler
       Environment:
