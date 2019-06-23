@@ -95,7 +95,7 @@ $ sam local generate-event cloudwatch scheduled-event | sam local invoke Winterf
 ```
 
 ```bash
-$ aws s3 mb s3://winterfell-serverless
+$ aws s3 mb s3://winterfell-serverless --region ap-southeast-1
 ```
 
 ```bash
