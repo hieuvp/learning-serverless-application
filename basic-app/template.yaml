@@ -9,3 +9,8 @@ Resources:
       Runtime: nodejs10.x
       CodeUri: .
       Handler: index.handler
+      Events:
+        WinterfellSchedule:
+          Type: Schedule
+          Properties:
+            Schedule: rate(1 minute)

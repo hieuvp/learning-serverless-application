@@ -13,6 +13,7 @@
     - [SAM Templates](#sam-templates)
     - [Serverless Deployments](#serverless-deployments)
 - [Defining and Deploying a Basic Application](#defining-and-deploying-a-basic-application)
+  - [Schedule Event](#schedule-event)
 - [Defining and Deploying a Library Application](#defining-and-deploying-a-library-application)
 - [Alternatives](#alternatives)
 - [References](#references)
@@ -69,19 +70,29 @@
 
 > Checkout [basic-app](basic-app).
 
-```shell
+```bash
 $ tree basic-app
 basic-app
 ├── index.js
 └── template.yaml
 ```
 
+### Schedule Event
+
+```bash
+$ sam local generate-event cloudwatch scheduled-event > events.json
+$ sam local invoke WinterfellLambdaFunction --event events.json
+```
+
+```bash
+$ sam local generate-event cloudwatch scheduled-event | sam local invoke WinterfellLambdaFunction
+```
 
 ## Defining and Deploying a Library Application
 
 > Checkout [library-app](library-app).
 
-```shell
+```bash
 $ tree library-app
 library-app
 ├── api
