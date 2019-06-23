@@ -60,11 +60,13 @@
 
 ## Defining and Deploying a Basic Application
 
-[basic-app](basic-app/)
+> Checkout [basic-app](basic-app) source
+
 
 ## Defining and Deploying a Library Application
 
-[library-app](library-app/)
+> Checkout [library-app](library-app) source
+
 
 ## Alternatives
 
