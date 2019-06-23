@@ -12,8 +12,6 @@
     - [Serverless Resources](#serverless-resources)
     - [SAM Templates](#sam-templates)
     - [Serverless Deployments](#serverless-deployments)
-      - [Before the Serverless Application Model](#before-the-serverless-application-model)
-      - [After the Serverless Application Model](#after-the-serverless-application-model)
 - [Defining and Deploying a Basic Application](#defining-and-deploying-a-basic-application)
 - [Defining and Deploying a Library Application](#defining-and-deploying-a-library-application)
 - [Alternatives](#alternatives)
@@ -26,7 +24,7 @@
 
 ### AWS CloudFormation
 
-> Infrastructure as Code
+> Infrastructure as Code.
 
 - Provide a common language for us to describe and provision all the infrastructure resources in our cloud environment.
 - Allow us to use a simple text file to model and provision, in an automated and secure manner, all the resources needed for our applications across all regions and accounts. This file serves as the single source of truth for our cloud environment.
@@ -41,7 +39,7 @@
 
 #### SAM Templates
 
-> Define and deploy SAM resources and non-SAM resources
+> Define and deploy SAM resources and non-SAM resources.
 
 **`SAM Templates`** = **`CloudFormation Templates`** + **`SAM Resources`**
 
@@ -49,23 +47,26 @@
 
 #### Serverless Deployments
 
-##### Before the Serverless Application Model
-
 <img src="assets/before-sam.png" width="800">
+<br />
+<em>Before the Serverless Application Model</em>
 
-##### After the Serverless Application Model
+<br />
+<br />
 
 <img src="assets/after-sam.png" width="800">
+<br />
+<em>After the Serverless Application Model</em>
 
 
 ## Defining and Deploying a Basic Application
 
-> Checkout [basic-app](basic-app) source
+> Checkout [basic-app](basic-app) source.
 
 
 ## Defining and Deploying a Library Application
 
-> Checkout [library-app](library-app) source
+> Checkout [library-app](library-app) source.
 
 
 ## Alternatives
