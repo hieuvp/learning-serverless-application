@@ -10,7 +10,7 @@ Resources:
       CodeUri: .
       Handler: index.handler
       Events:
-        WinterfellSchedule:
+        WinterfellTimer:
           Type: Schedule
           Properties:
             Schedule: rate(1 minute)
