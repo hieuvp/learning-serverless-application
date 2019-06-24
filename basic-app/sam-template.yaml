@@ -1,0 +1,16 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+
+Resources:
+
+  WinterfellLambdaFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      Runtime: nodejs10.x
+      CodeUri: .
+      Handler: index.handler
+      Events:
+        WinterfellTimer:
+          Type: Schedule
+          Properties:
+            Schedule: rate(1 minute)
